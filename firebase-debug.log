@@ -1,0 +1,588 @@
+[debug] [2019-02-06T05:05:02.931Z] ----------------------------------------------------------------------
+[debug] [2019-02-06T05:05:02.949Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dieudonné\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-02-06T05:05:02.950Z] CLI Version:   6.3.1
+[debug] [2019-02-06T05:05:02.950Z] Platform:      win32
+[debug] [2019-02-06T05:05:02.950Z] Node Version:  v10.9.0
+[debug] [2019-02-06T05:05:02.952Z] Time:          Wed Feb 06 2019 06:05:02 GMT+0100 (West Africa Standard Time)
+[debug] [2019-02-06T05:05:02.952Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-06T05:05:03.017Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-06T05:05:03.019Z] > authorizing via signed-in user
+[debug] [2019-02-06T05:05:03.021Z] [iam] checking project heconnect-150b7 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-02-06T05:05:03.030Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/heconnect-150b7:testIamPermissions  
+
+[debug] [2019-02-06T05:05:06.339Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-06T05:05:06.347Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/heconnect-150b7  
+ 
+[debug] [2019-02-06T05:05:08.904Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'heconnect-150b7'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-02-06T05:05:08.967Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/heconnect-150b7/versions  
+
+[debug] [2019-02-06T05:05:11.282Z] <<< HTTP RESPONSE 500
+[debug] [2019-02-06T05:05:11.282Z] <<< HTTP RESPONSE BODY
+[error] 
+[error] Error: HTTP Error: 500, Internal error encountered.
+[debug] [2019-02-06T05:05:13.551Z] Error Context: {
+  "body": {
+    "error": {
+      "code": 500,
+      "message": "Internal error encountered.",
+      "status": "INTERNAL"
+    }
+  },
+  "response": {
+    "statusCode": 500,
+    "body": {
+      "error": {
+        "code": 500,
+        "message": "Internal error encountered.",
+        "status": "INTERNAL"
+      }
+    },
+    "headers": {
+      "vary": "X-Origin, Referer, Origin,Accept-Encoding",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 06 Feb 2019 13:12:16 GMT",
+      "server": "ESF",
+      "cache-control": "private",
+      "x-xss-protection": "1; mode=block",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "quic=\":443\"; ma=2592000; v=\"44,43,39\"",
+      "accept-ranges": "none",
+      "transfer-encoding": "chunked"
+    },
+    "request": {
+      "uri": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "firebasehosting.googleapis.com",
+        "port": 443,
+        "hostname": "firebasehosting.googleapis.com",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/v1beta1/sites/heconnect-150b7/versions",
+        "path": "/v1beta1/sites/heconnect-150b7/versions",
+        "href": "https://firebasehosting.googleapis.com/v1beta1/sites/heconnect-150b7/versions"
+      },
+      "method": "POST"
+    }
+  }
+}
+[debug] [2019-02-06T05:05:54.882Z] ----------------------------------------------------------------------
+[debug] [2019-02-06T05:05:54.892Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dieudonné\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-02-06T05:05:54.893Z] CLI Version:   6.3.1
+[debug] [2019-02-06T05:05:54.893Z] Platform:      win32
+[debug] [2019-02-06T05:05:54.893Z] Node Version:  v10.9.0
+[debug] [2019-02-06T05:05:54.894Z] Time:          Wed Feb 06 2019 06:05:54 GMT+0100 (West Africa Standard Time)
+[debug] [2019-02-06T05:05:54.895Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-06T05:05:54.961Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-06T05:05:54.962Z] > authorizing via signed-in user
+[debug] [2019-02-06T05:05:54.962Z] [iam] checking project heconnect-150b7 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-02-06T05:05:54.977Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/heconnect-150b7:testIamPermissions  
+
+[debug] [2019-02-06T05:05:57.958Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-06T05:05:57.966Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/heconnect-150b7  
+ 
+[debug] [2019-02-06T05:05:59.455Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'heconnect-150b7'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-02-06T05:05:59.482Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/heconnect-150b7/versions  
+
+[debug] [2019-02-06T05:06:01.518Z] <<< HTTP RESPONSE 500
+[debug] [2019-02-06T05:06:01.518Z] <<< HTTP RESPONSE BODY
+[error] 
+[error] Error: HTTP Error: 500, Internal error encountered.
+[debug] [2019-02-06T05:06:06.079Z] Error Context: {
+  "body": {
+    "error": {
+      "code": 500,
+      "message": "Internal error encountered.",
+      "status": "INTERNAL"
+    }
+  },
+  "response": {
+    "statusCode": 500,
+    "body": {
+      "error": {
+        "code": 500,
+        "message": "Internal error encountered.",
+        "status": "INTERNAL"
+      }
+    },
+    "headers": {
+      "vary": "X-Origin, Referer, Origin,Accept-Encoding",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 06 Feb 2019 13:13:06 GMT",
+      "server": "ESF",
+      "cache-control": "private",
+      "x-xss-protection": "1; mode=block",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "quic=\":443\"; ma=2592000; v=\"44,43,39\"",
+      "accept-ranges": "none",
+      "transfer-encoding": "chunked"
+    },
+    "request": {
+      "uri": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "firebasehosting.googleapis.com",
+        "port": 443,
+        "hostname": "firebasehosting.googleapis.com",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/v1beta1/sites/heconnect-150b7/versions",
+        "path": "/v1beta1/sites/heconnect-150b7/versions",
+        "href": "https://firebasehosting.googleapis.com/v1beta1/sites/heconnect-150b7/versions"
+      },
+      "method": "POST"
+    }
+  }
+}
+[debug] [2019-02-06T05:07:37.415Z] ----------------------------------------------------------------------
+[debug] [2019-02-06T05:07:37.424Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dieudonné\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-02-06T05:07:37.424Z] CLI Version:   6.3.1
+[debug] [2019-02-06T05:07:37.425Z] Platform:      win32
+[debug] [2019-02-06T05:07:37.425Z] Node Version:  v10.9.0
+[debug] [2019-02-06T05:07:37.426Z] Time:          Wed Feb 06 2019 06:07:37 GMT+0100 (West Africa Standard Time)
+[debug] [2019-02-06T05:07:37.426Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-06T05:07:37.488Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-06T05:07:37.490Z] > authorizing via signed-in user
+[debug] [2019-02-06T05:07:37.490Z] [iam] checking project heconnect-150b7 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-02-06T05:07:37.503Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/heconnect-150b7:testIamPermissions  
+
+[debug] [2019-02-06T05:07:41.612Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-06T05:07:41.621Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/heconnect-150b7  
+ 
+[debug] [2019-02-06T05:07:43.743Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'heconnect-150b7'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-02-06T05:07:43.773Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/heconnect-150b7/versions  
+
+[debug] [2019-02-06T05:07:50.362Z] <<< HTTP RESPONSE 500
+[debug] [2019-02-06T05:07:50.362Z] <<< HTTP RESPONSE BODY
+[error] 
+[error] Error: HTTP Error: 500, Internal error encountered.
+[debug] [2019-02-06T05:07:53.038Z] Error Context: {
+  "body": {
+    "error": {
+      "code": 500,
+      "message": "Internal error encountered.",
+      "status": "INTERNAL"
+    }
+  },
+  "response": {
+    "statusCode": 500,
+    "body": {
+      "error": {
+        "code": 500,
+        "message": "Internal error encountered.",
+        "status": "INTERNAL"
+      }
+    },
+    "headers": {
+      "vary": "X-Origin, Referer, Origin,Accept-Encoding",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 06 Feb 2019 13:14:55 GMT",
+      "server": "ESF",
+      "cache-control": "private",
+      "x-xss-protection": "1; mode=block",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "quic=\":443\"; ma=2592000; v=\"44,43,39\"",
+      "accept-ranges": "none",
+      "transfer-encoding": "chunked"
+    },
+    "request": {
+      "uri": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "firebasehosting.googleapis.com",
+        "port": 443,
+        "hostname": "firebasehosting.googleapis.com",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/v1beta1/sites/heconnect-150b7/versions",
+        "path": "/v1beta1/sites/heconnect-150b7/versions",
+        "href": "https://firebasehosting.googleapis.com/v1beta1/sites/heconnect-150b7/versions"
+      },
+      "method": "POST"
+    }
+  }
+}
+[debug] [2019-02-06T05:28:27.569Z] ----------------------------------------------------------------------
+[debug] [2019-02-06T05:28:27.588Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dieudonné\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-02-06T05:28:27.589Z] CLI Version:   6.3.1
+[debug] [2019-02-06T05:28:27.589Z] Platform:      win32
+[debug] [2019-02-06T05:28:27.589Z] Node Version:  v10.9.0
+[debug] [2019-02-06T05:28:27.593Z] Time:          Wed Feb 06 2019 06:28:27 GMT+0100 (West Africa Standard Time)
+[debug] [2019-02-06T05:28:27.593Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-06T05:28:27.674Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-06T05:28:27.677Z] > authorizing via signed-in user
+[debug] [2019-02-06T05:28:27.677Z] [iam] checking project heconnect-150b7 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-02-06T05:28:27.692Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/heconnect-150b7:testIamPermissions  
+
+[debug] [2019-02-06T05:28:29.310Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-06T05:28:29.317Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/heconnect-150b7  
+ 
+[debug] [2019-02-06T05:28:30.024Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'heconnect-150b7'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-02-06T05:28:30.054Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/heconnect-150b7/versions  
+
+[debug] [2019-02-06T05:28:31.681Z] <<< HTTP RESPONSE 500
+[debug] [2019-02-06T05:28:31.681Z] <<< HTTP RESPONSE BODY
+[error] 
+[error] Error: HTTP Error: 500, Internal error encountered.
+[debug] [2019-02-06T05:28:34.322Z] Error Context: {
+  "body": {
+    "error": {
+      "code": 500,
+      "message": "Internal error encountered.",
+      "status": "INTERNAL"
+    }
+  },
+  "response": {
+    "statusCode": 500,
+    "body": {
+      "error": {
+        "code": 500,
+        "message": "Internal error encountered.",
+        "status": "INTERNAL"
+      }
+    },
+    "headers": {
+      "vary": "X-Origin, Referer, Origin,Accept-Encoding",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 06 Feb 2019 13:35:37 GMT",
+      "server": "ESF",
+      "cache-control": "private",
+      "x-xss-protection": "1; mode=block",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "quic=\":443\"; ma=2592000; v=\"44,43,39\"",
+      "accept-ranges": "none",
+      "transfer-encoding": "chunked"
+    },
+    "request": {
+      "uri": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "firebasehosting.googleapis.com",
+        "port": 443,
+        "hostname": "firebasehosting.googleapis.com",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/v1beta1/sites/heconnect-150b7/versions",
+        "path": "/v1beta1/sites/heconnect-150b7/versions",
+        "href": "https://firebasehosting.googleapis.com/v1beta1/sites/heconnect-150b7/versions"
+      },
+      "method": "POST"
+    }
+  }
+}
+[debug] [2019-02-06T05:29:16.657Z] ----------------------------------------------------------------------
+[debug] [2019-02-06T05:29:16.669Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dieudonné\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-02-06T05:29:16.670Z] CLI Version:   6.3.1
+[debug] [2019-02-06T05:29:16.670Z] Platform:      win32
+[debug] [2019-02-06T05:29:16.670Z] Node Version:  v10.9.0
+[debug] [2019-02-06T05:29:16.673Z] Time:          Wed Feb 06 2019 06:29:16 GMT+0100 (West Africa Standard Time)
+[debug] [2019-02-06T05:29:16.673Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-06T05:29:16.838Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-06T05:29:16.840Z] > authorizing via signed-in user
+[debug] [2019-02-06T05:29:16.840Z] [iam] checking project heconnect-150b7 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-02-06T05:29:16.850Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/heconnect-150b7:testIamPermissions  
+
+[debug] [2019-02-06T05:29:18.630Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-06T05:29:18.637Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/heconnect-150b7  
+ 
+[debug] [2019-02-06T05:29:19.404Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'heconnect-150b7'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-02-06T05:29:19.421Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/heconnect-150b7/versions  
+
+[debug] [2019-02-06T05:29:21.455Z] <<< HTTP RESPONSE 500
+[debug] [2019-02-06T05:29:21.456Z] <<< HTTP RESPONSE BODY
+[error] 
+[error] Error: HTTP Error: 500, Internal error encountered.
+[debug] [2019-02-06T05:29:22.088Z] Error Context: {
+  "body": {
+    "error": {
+      "code": 500,
+      "message": "Internal error encountered.",
+      "status": "INTERNAL"
+    }
+  },
+  "response": {
+    "statusCode": 500,
+    "body": {
+      "error": {
+        "code": 500,
+        "message": "Internal error encountered.",
+        "status": "INTERNAL"
+      }
+    },
+    "headers": {
+      "vary": "X-Origin, Referer, Origin,Accept-Encoding",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 06 Feb 2019 13:36:26 GMT",
+      "server": "ESF",
+      "cache-control": "private",
+      "x-xss-protection": "1; mode=block",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "quic=\":443\"; ma=2592000; v=\"44,43,39\"",
+      "accept-ranges": "none",
+      "transfer-encoding": "chunked"
+    },
+    "request": {
+      "uri": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "firebasehosting.googleapis.com",
+        "port": 443,
+        "hostname": "firebasehosting.googleapis.com",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/v1beta1/sites/heconnect-150b7/versions",
+        "path": "/v1beta1/sites/heconnect-150b7/versions",
+        "href": "https://firebasehosting.googleapis.com/v1beta1/sites/heconnect-150b7/versions"
+      },
+      "method": "POST"
+    }
+  }
+}
+[debug] [2019-02-06T05:33:48.283Z] ----------------------------------------------------------------------
+[debug] [2019-02-06T05:33:48.294Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dieudonné\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2019-02-06T05:33:48.294Z] CLI Version:   3.19.3
+[debug] [2019-02-06T05:33:48.295Z] Platform:      win32
+[debug] [2019-02-06T05:33:48.295Z] Node Version:  v10.9.0
+[debug] [2019-02-06T05:33:48.297Z] Time:          Wed Feb 06 2019 06:33:48 GMT+0100 (West Africa Standard Time)
+[debug] [2019-02-06T05:33:48.297Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-06T05:33:48.341Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-06T05:33:48.342Z] > authorizing via signed-in user
+[debug] [2019-02-06T05:33:48.350Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/heconnect-150b7  
+  
+ Wed Feb 06 2019 06:33:48 GMT+0100 (West Africa Standard Time)
+[debug] [2019-02-06T05:33:50.331Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-06T05:33:50.335Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/heconnect-150b7/tokens  
+  
+ Wed Feb 06 2019 06:33:50 GMT+0100 (West Africa Standard Time)
+[debug] [2019-02-06T05:33:52.235Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'heconnect-150b7'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing / directory for upload...
+[debug] [2019-02-06T05:33:55.942Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/heconnect-150b7/uploads/-LY21ZveNDsyO9C0XxIZ?fileCount=171&message=  
+  
+ Wed Feb 06 2019 06:33:55 GMT+0100 (West Africa Standard Time)
+[debug] [2019-02-06T05:34:39.843Z] <<< HTTP RESPONSE 500
+[debug] [2019-02-06T05:34:39.845Z] <<< HTTP RESPONSE BODY undefined
+[error] 
+[error] Error: HTTP Error: 500, Unknown Error
+[debug] [2019-02-06T05:34:40.798Z] Error Context: {
+  "body": {
+    "error": {
+      "message": "Unknown Error"
+    }
+  },
+  "response": {
+    "statusCode": 500,
+    "headers": {
+      "server": "nginx",
+      "date": "Wed, 06 Feb 2019 13:41:45 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "72",
+      "connection": "close",
+      "access-control-allow-origin": "*",
+      "access-control-allow-methods": "GET, PUT, POST, DELETE, OPTIONS",
+      "strict-transport-security": "max-age=31556926; includeSubDomains; preload",
+      "x-content-type-options": "nosniff"
+    },
+    "request": {
+      "uri": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "deploy.firebase.com",
+        "port": 443,
+        "hostname": "deploy.firebase.com",
+        "hash": null,
+        "search": "?fileCount=171&message=",
+        "query": "fileCount=171&message=",
+        "pathname": "/v1/hosting/heconnect-150b7/uploads/-LY21ZveNDsyO9C0XxIZ",
+        "path": "/v1/hosting/heconnect-150b7/uploads/-LY21ZveNDsyO9C0XxIZ?fileCount=171&message=",
+        "href": "https://deploy.firebase.com/v1/hosting/heconnect-150b7/uploads/-LY21ZveNDsyO9C0XxIZ?fileCount=171&message="
+      },
+      "method": "PUT"
+    }
+  }
+}
+[debug] [2019-02-06T05:34:58.574Z] ----------------------------------------------------------------------
+[debug] [2019-02-06T05:34:58.587Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dieudonné\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2019-02-06T05:34:58.589Z] CLI Version:   3.19.3
+[debug] [2019-02-06T05:34:58.589Z] Platform:      win32
+[debug] [2019-02-06T05:34:58.589Z] Node Version:  v10.9.0
+[debug] [2019-02-06T05:34:58.591Z] Time:          Wed Feb 06 2019 06:34:58 GMT+0100 (West Africa Standard Time)
+[debug] [2019-02-06T05:34:58.592Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-06T05:34:58.668Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-06T05:34:58.674Z] > authorizing via signed-in user
+[debug] [2019-02-06T05:34:58.703Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/heconnect-150b7  
+  
+ Wed Feb 06 2019 06:34:58 GMT+0100 (West Africa Standard Time)
+[debug] [2019-02-06T05:35:00.258Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-06T05:35:00.262Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/heconnect-150b7/tokens  
+  
+ Wed Feb 06 2019 06:35:00 GMT+0100 (West Africa Standard Time)
+[debug] [2019-02-06T05:35:02.428Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'heconnect-150b7'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing / directory for upload...
+[debug] [2019-02-06T05:35:05.019Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/heconnect-150b7/uploads/-LY21q1PA2rObbUUOyA0?fileCount=70&message=  
+  
+ Wed Feb 06 2019 06:35:05 GMT+0100 (West Africa Standard Time)
+[debug] [2019-02-06T05:35:28.928Z] <<< HTTP RESPONSE 500
+[debug] [2019-02-06T05:35:28.928Z] <<< HTTP RESPONSE BODY undefined
+[error] 
+[error] Error: HTTP Error: 500, Unknown Error
+[debug] [2019-02-06T05:35:29.608Z] Error Context: {
+  "body": {
+    "error": {
+      "message": "Unknown Error"
+    }
+  },
+  "response": {
+    "statusCode": 500,
+    "headers": {
+      "server": "nginx",
+      "date": "Wed, 06 Feb 2019 13:42:34 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "72",
+      "connection": "close",
+      "access-control-allow-origin": "*",
+      "access-control-allow-methods": "GET, PUT, POST, DELETE, OPTIONS",
+      "strict-transport-security": "max-age=31556926; includeSubDomains; preload",
+      "x-content-type-options": "nosniff"
+    },
+    "request": {
+      "uri": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "deploy.firebase.com",
+        "port": 443,
+        "hostname": "deploy.firebase.com",
+        "hash": null,
+        "search": "?fileCount=70&message=",
+        "query": "fileCount=70&message=",
+        "pathname": "/v1/hosting/heconnect-150b7/uploads/-LY21q1PA2rObbUUOyA0",
+        "path": "/v1/hosting/heconnect-150b7/uploads/-LY21q1PA2rObbUUOyA0?fileCount=70&message=",
+        "href": "https://deploy.firebase.com/v1/hosting/heconnect-150b7/uploads/-LY21q1PA2rObbUUOyA0?fileCount=70&message="
+      },
+      "method": "PUT"
+    }
+  }
+}
+[debug] [2019-02-06T05:45:37.042Z] ----------------------------------------------------------------------
+[debug] [2019-02-06T05:45:37.055Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dieudonné\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2019-02-06T05:45:37.056Z] CLI Version:   3.19.3
+[debug] [2019-02-06T05:45:37.056Z] Platform:      win32
+[debug] [2019-02-06T05:45:37.056Z] Node Version:  v10.9.0
+[debug] [2019-02-06T05:45:37.057Z] Time:          Wed Feb 06 2019 06:45:37 GMT+0100 (West Africa Standard Time)
+[debug] [2019-02-06T05:45:37.058Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-06T05:45:37.098Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-06T05:45:37.099Z] > authorizing via signed-in user
+[debug] [2019-02-06T05:45:37.107Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/heconnect-150b7  
+  
+ Wed Feb 06 2019 06:45:37 GMT+0100 (West Africa Standard Time)
+[debug] [2019-02-06T05:45:38.829Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-06T05:45:38.832Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/heconnect-150b7/tokens  
+  
+ Wed Feb 06 2019 06:45:38 GMT+0100 (West Africa Standard Time)
+[debug] [2019-02-06T05:45:39.881Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'heconnect-150b7'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing / directory for upload...
+[debug] [2019-02-06T05:45:44.207Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/heconnect-150b7/uploads/-LY24GuriDRv-VwMTcR6?fileCount=174&message=  
+  
+ Wed Feb 06 2019 06:45:44 GMT+0100 (West Africa Standard Time)
+[debug] [2019-02-06T05:46:21.771Z] <<< HTTP RESPONSE 502
+[debug] [2019-02-06T05:46:21.772Z] <<< HTTP RESPONSE BODY <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+[error] 
+[error] Error: HTTP Error: 502, Unknown Error
+[debug] [2019-02-06T05:46:22.656Z] Error Context: {
+  "body": {
+    "error": {
+      "message": "Unknown Error"
+    }
+  },
+  "response": {
+    "statusCode": 502,
+    "body": "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+    "headers": {
+      "server": "nginx",
+      "date": "Wed, 06 Feb 2019 13:53:27 GMT",
+      "content-type": "text/html",
+      "content-length": "166",
+      "connection": "close"
+    },
+    "request": {
+      "uri": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "deploy.firebase.com",
+        "port": 443,
+        "hostname": "deploy.firebase.com",
+        "hash": null,
+        "search": "?fileCount=174&message=",
+        "query": "fileCount=174&message=",
+        "pathname": "/v1/hosting/heconnect-150b7/uploads/-LY24GuriDRv-VwMTcR6",
+        "path": "/v1/hosting/heconnect-150b7/uploads/-LY24GuriDRv-VwMTcR6?fileCount=174&message=",
+        "href": "https://deploy.firebase.com/v1/hosting/heconnect-150b7/uploads/-LY24GuriDRv-VwMTcR6?fileCount=174&message="
+      },
+      "method": "PUT"
+    }
+  }
+}
